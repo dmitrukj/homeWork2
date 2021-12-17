@@ -138,6 +138,11 @@ if (number>n){
      console.log("попробуйте снова");
  }
 
+let number = prompt("Введите число","");
+const n = 25;
+number>n ? console.log("хорошо") :  console.log("попробуйте снова");
+
+
  // Задание 13
 
 let number = prompt("Введите число","");
@@ -148,3 +153,4 @@ if (number>10) {
 else  {
     console.log("не больше 10");
 }
+
